@@ -136,6 +136,9 @@
             align-items: center;
             gap: 50px;
             margin-top: 100px;
+            @media (max-width: 700px) {
+                flex-direction: column;
+            }
 
             .kavlion-2-grant {
                 width: 35%;
@@ -146,6 +149,9 @@
                 border-radius: 15px;
                 color: #fff;
                 position: relative;
+                @media (max-width: 700px) {
+                    width: 60%;
+                }
 
 
                 img {
@@ -206,6 +212,9 @@
                 border-radius: 15px;
                 color: #fff;
                 position: relative;
+                @media (max-width: 700px) {
+                    width: 60%;
+                }
 
                 .kavlion-2-grants-img {
                     width: 109%;

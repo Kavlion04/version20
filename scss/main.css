@@ -1856,6 +1856,11 @@ body {
   gap: 50px;
   margin-top: 100px;
 }
+@media (max-width: 700px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran {
+    flex-direction: column;
+  }
+}
 .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant {
   width: 35%;
   height: 600px;
@@ -1865,6 +1870,11 @@ body {
   border-radius: 15px;
   color: #fff;
   position: relative;
+}
+@media (max-width: 700px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant {
+    width: 60%;
+  }
 }
 .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant img {
   width: 100px;
@@ -1912,6 +1922,11 @@ body {
   border-radius: 15px;
   color: #fff;
   position: relative;
+}
+@media (max-width: 700px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants {
+    width: 60%;
+  }
 }
 .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .kavlion-2-grants-img {
   width: 109%;
