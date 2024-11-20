@@ -1308,7 +1308,7 @@ body {
 }
 
 body {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
 }
 
 .header_funded {
@@ -1715,6 +1715,262 @@ body {
 }
 .footer-text-links-social a img {
   width: 24px;
+}
+
+.kavlion .avatar {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.kavlion h1 {
+  font-family: "Circular";
+  font-size: 60px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 40px;
+}
+.kavlion b {
+  font-family: "Circular";
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 160px;
+  margin-bottom: 40px;
+}
+@media (max-width: 500px) {
+  .kavlion b {
+    margin-left: 0;
+  }
+}
+@media (max-width: 700px) {
+  .kavlion b {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .kavlion b {
+    margin-left: 0;
+  }
+}
+.kavlion .kavlion-text-p {
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  color: #A59EBA;
+  text-align: start;
+  width: 70%;
+  align-items: center;
+  display: flex;
+  margin-left: 160px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+  .kavlion .kavlion-text-p {
+    margin-left: 0;
+  }
+}
+@media (max-width: 700px) {
+  .kavlion .kavlion-text-p {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .kavlion .kavlion-text-p {
+    margin-left: 0;
+  }
+}
+.kavlion .kavlion-text {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+@media (max-width: 500px) {
+  .kavlion .kavlion-text {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+@media (max-width: 700px) {
+  .kavlion .kavlion-text {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .kavlion .kavlion-text {
+    margin-left: 0;
+  }
+}
+.kavlion .kavlion-text .kavlion-text-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #393953;
+  border: none;
+  font-family: "Circular Std", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 30px;
+}
+.kavlion .kavlion-text .kavlion-text-link img {
+  width: 30px;
+  height: 30px;
+}
+.kavlion .kavlion-text .kavlion-text-link p {
+  font-family: "Circular Std", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.kavlion-main {
+  background-image: url("../../../assets/images/Grid-Top.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.kavlion-main .kavlion-2 h2 {
+  font-family: "Circular";
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 140px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant {
+  width: 35%;
+  height: 600px;
+  padding: 10px 20px;
+  background-color: #393953;
+  border: 1px solid rgba(255, 255, 255, 0.2117647059);
+  border-radius: 15px;
+  color: #fff;
+  position: relative;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 5px;
+}
+@media (max-width: 400px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant .categorysss {
+  color: #A59EBA;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant b {
+  color: #fff;
+  font-family: "Circular";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grant .categoryss {
+  color: #A59EBA;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 8px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants {
+  border: 1px solid rgba(255, 255, 255, 0.2117647059);
+  width: 35%;
+  height: 600px;
+  padding: 10px 20px;
+  background-color: #393953;
+  border-radius: 15px;
+  color: #fff;
+  position: relative;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .kavlion-2-grants-img {
+  width: 109%;
+  height: 250px;
+  margin-left: -20px;
+  margin-top: -11px;
+  background-color: #1c1c28;
+  border-radius: 15px;
+}
+@media (max-width: 500px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .kavlion-2-grants-img {
+    width: 130%;
+  }
+}
+@media (max-width: 700px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .kavlion-2-grants-img {
+    width: 150%;
+  }
+}
+@media (max-width: 1000px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .kavlion-2-grants-img {
+    width: 117%;
+  }
+}
+@media (max-width: 400px) {
+  .kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .kavlion-2-grants-img {
+    width: 150%;
+  }
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .categorysss {
+  color: #A59EBA;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants b {
+  color: #fff;
+  font-family: "Circular";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants .categoryss {
+  color: #A59EBA;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 8px;
+}
+.kavlion-main .kavlion-2 .kavlion-2-gran .kavlion-2-grants img {
+  position: absolute;
+  bottom: 10px;
 }
 
 * {

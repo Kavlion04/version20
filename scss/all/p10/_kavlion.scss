@@ -1,0 +1,270 @@
+.kavlion {
+    .avatar {
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-family: "Circular";
+        font-size: 60px;
+        font-weight: 700;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 40px;
+
+
+    }
+
+    b {
+        font-family: "Circular";
+        font-size: 18px;
+        font-weight: 700;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 160px;
+        margin-bottom: 40px;
+        @media (max-width: 500px) {
+            margin-left: 0;
+        }
+        @media (max-width: 700px) {
+            margin-left: 0;
+        }
+        @media (max-width: 1000px) {
+            margin-left: 0;
+        }
+    }
+
+    .kavlion-text-p {
+        font-family: "Space Mono";
+        font-size: 16px;
+        font-weight: 400;
+        color: #A59EBA;
+        text-align: start;
+        width: 70%;
+        align-items: center;
+        display: flex;
+        margin-left: 160px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        @media (max-width: 500px) {
+            margin-left: 0;
+        }
+        @media (max-width: 700px) {
+            margin-left: 0;
+        }
+        @media (max-width: 1000px) {
+            margin-left: 0;
+        }
+    }
+
+    .kavlion-text {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 20px;
+        margin-top: 40px;
+        margin-left: 170px;
+        @media (max-width: 500px) {
+            flex-direction: column;
+            margin-left: 0;
+        }
+        @media (max-width: 700px) {
+            flex-direction: column;
+            margin-left: 0;
+        }
+        @media (max-width: 1000px) {
+           
+            margin-left: 0;
+        }
+
+
+        .kavlion-text-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 20px;
+            background-color: #393953;
+            border: none;
+            font-family: "Circular Std", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            border-radius: 30px;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+
+            p {
+                font-family: "Circular Std", sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.kavlion-main {
+    background-image: url("../../../assets/images/Grid-Top.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .kavlion-2 {
+        h2 {
+            font-family: "Circular";
+            font-size: 40px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+            margin-top: 140px;
+
+        }
+
+
+
+        .kavlion-2-gran {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-top: 100px;
+
+            .kavlion-2-grant {
+                width: 35%;
+                height: 600px;
+                padding: 10px 20px;
+                background-color: #393953;
+                border: 1px solid #ffffff36;
+                border-radius: 15px;
+                color: #fff;
+                position: relative;
+
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    bottom: 5px;
+                    @media (max-width: 400px) {
+                        width: 70px;
+                        height: 70px;
+                        
+                    }
+                }
+
+                .categorysss {
+                    color: #A59EBA;
+                    font-family: "Space Mono";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    margin-bottom: 8px;
+
+
+
+                }
+
+                b {
+                    color: #fff;
+                    font-family: "Circular";
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-align: left;
+                    margin-bottom: 10px;
+
+
+                }
+
+                .categoryss {
+                    color: #A59EBA;
+                    font-family: "Space Mono";
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    margin-top: 8px;
+
+
+                }
+
+            }
+
+            .kavlion-2-grants {
+                border: 1px solid #ffffff36;
+                width: 35%;
+                height: 600px;
+                padding: 10px 20px;
+                background-color: #393953;
+                border-radius: 15px;
+                color: #fff;
+                position: relative;
+
+                .kavlion-2-grants-img {
+                    width: 109%;
+                    height: 250px;
+                    margin-left: -20px;
+                    margin-top: -11px;
+                    background-color: #1c1c28;
+                    border-radius: 15px;
+                    @media (max-width: 500px) {
+                        width: 130%;
+                    }
+                    @media (max-width: 700px) {
+                        width: 150%;
+                    }
+                    @media (max-width: 1000px) {
+                        width: 117%;
+                    }
+                    @media (max-width: 400px) {
+                        width: 150%;
+                    }
+                }
+
+                .categorysss {
+                    color: #A59EBA;
+                    font-family: "Space Mono";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    margin-bottom: 8px;
+                    margin-top: 20px;
+                }
+
+                b {
+                    color: #fff;
+                    font-family: "Circular";
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-align: left;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+
+                .categoryss {
+                    color: #A59EBA;
+                    font-family: "Space Mono";
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    margin-top: 8px;
+                }
+
+                img {
+                    position: absolute;
+                    bottom: 10px;
+                }
+
+            }
+        }
+
+    }
+}
