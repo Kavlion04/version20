@@ -1807,11 +1807,15 @@ body {
   .head__card .head__card__boxs .file .file__box {
     width: 60%;
     margin-top: 100px;
+    height: auto;
+    font-size: 12px;
   }
 }
 @media (max-width: 700px) {
   .head__card .head__card__boxs .file .file__box {
     width: 60%;
+    height: auto;
+    font-size: 12px;
   }
 }
 .head__card .head__card__boxs .futer__button {
