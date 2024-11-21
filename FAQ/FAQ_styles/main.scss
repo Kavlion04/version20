@@ -42,6 +42,9 @@ h1 {
   text-align: center;
   color: white;
   margin-bottom: 40px;
+  span {
+    color: #6966ff;
+  }
 }
 
 header {
@@ -86,10 +89,20 @@ header {
 
 .section-1 {
   margin-bottom: 120px;
+  h1 {
+
+    span {
+      color: #007bff;
+    }
+  }
+  
 }
 
 h1 {
   margin-bottom: 100px;
+  span {
+    color: red; 
+  }
 }
 
 .s1__accardion {
