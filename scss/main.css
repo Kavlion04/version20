@@ -1840,6 +1840,103 @@ body {
   box-shadow: #C8C7D8 0px 4px 20px 0px;
 }
 
+.container .container_title_text {
+  text-align: center;
+  color: white;
+}
+.container .container_title_text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.container .container_title_text p {
+  color: #C8C7D8;
+  font-size: 18px;
+  padding-top: 25px;
+}
+.container .Brand_assets_logo {
+  height: 1480px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .logo_con_box {
+  width: 810px;
+  height: 1315px;
+}
+.container .logo_con_box .logo_title-cards h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.container .logo_con_box .logo_title-cards .logo_cards {
+  width: 810px;
+  height: 710px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 780px) {
+  .container .logo_con_box .logo_title-cards .logo_cards {
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+.container .logo_con_box .avatar_box {
+  width: 810px;
+  height: 310px;
+  margin-top: 30px;
+}
+.container .logo_con_box .avatar_box .avatar_card_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+@media (max-width: 700px) {
+  .container .logo_con_box .avatar_box .avatar_card_images {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.container .logo_con_box .avatar_title_text {
+  height: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.container .logo_con_box .avatar_title_text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+.container .logo_con_box .Guidelines_box_text {
+  height: 140px;
+  margin-top: 75px;
+  color: white;
+}
+.container .logo_con_box .Guidelines_box_text h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.container .logo_con_box .Guidelines_box_text p {
+  color: #C8C7D8;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.footer {
+  position: relative;
+  bottom: -800px;
+}
+.footer .footer-content {
+  display: none;
+}
+
 .kavlion .avatar {
   align-items: center;
   display: flex;
