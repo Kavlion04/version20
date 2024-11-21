@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../scss/main.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../FAQ/FAQ_styles/main.css" />
+    <title>FAQ</title>
+  </head>
+  <body>
+    <header class="container bnm">
+      <img width="120" src="../FAQ/FAQ_imgs/Logo-nav.svg" alt="" />
+      <div class="burger-menu">
+        <div class="menu-mobile">
+          <div class="menu-mobile__header">
+            <img width="120" src="../FAQ/FAQ_imgs/Logo-nav.svg" alt="" />
+            <div style="display: flex; align-items: center; gap: 40px">
+              <button class="apply">Apply</button>
+              <img class="close" src="../FAQ/FAQ_imgs/close.svg" alt="" />
+            </div>
+          </div>
+          <nav class="nav_mobile">
+            <a href="#">Discover initiatives</a>
+            <a href="#">Funded grants</a>
+            <a href="#">Program expenses</a>
+            <a href="#">Blog</a>
+            <a href="#">FAQ</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="nav">
+        <ul>
+          <li><a href="#">Discover initiatives</a></li>
+          <li><a href="./funded-grants.html">Funded grants</a></li>
+          <li><a href="./program.html">Program expenses</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+          <button>Apply for grant</button>
+        </ul>
+        <button class="apply">Apply</button>
+        <img class="menu" src="../FAQ/FAQ_imgs/menu-burger.svg" alt="" />
+      </div>
+    </header>
+    <main>
+      <section class="section-1 container">
+        <h1>Frequently asked questions</h1>
+        <div class="s1__accardions"></div>
+        <div></div>
+      </section>
+      <section class="section-3 container">
+        <footer>
+          <div class="footer__nav">
+            <img src="../FAQ/FAQ_imgs/x_logo.svg" alt="" />
+            <a href="">About</a>
+            <a href="">FAQ</a>
+            <a href="">Brand assets</a>
+            <a class="share" href=""
+              >dYdX Foundation <img src="../FAQ/FAQ_imgs/share-logo.svg" alt=""
+            /></a>
+            <a class="share" href=""
+              >dYdX trading <img src="../FAQ/FAQ_imgs/share-logo.svg" alt=""
+            /></a>
+          </div>
+          <div class="footer__social">
+            <img src="../FAQ/FAQ_imgs/twitter.svg" alt="" />
+            <img
+              src="../FAQ/FAQ_imgs/discord.svg"
+              alt=""
+            />
+          </div>
+        </footer>
+      </section>
+    </main>
+    <script src="./FAQ/scripts/app.js"></script>
+  </body>
 </html>
