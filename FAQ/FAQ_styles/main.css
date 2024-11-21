@@ -11,7 +11,7 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1380px;
   margin: 0 auto;
 }
 
@@ -84,6 +84,120 @@ header div ul li a:active {
 
 .section-1 {
   margin-bottom: 120px;
+}
+
+h1 {
+  margin-bottom: 100px;
+}
+
+.s1__accardion {
+  margin-bottom: 80px;
+}
+
+.accordion {
+  margin: 0 auto;
+  width: 70%;
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+}
+@media (max-width: 700px) {
+  .accordion {
+    padding: 0 20px;
+    border-top: none;
+  }
+}
+
+h2 {
+  font-family: "Circular Std", sans-serif;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.apply {
+  border-top: 1px solid #393953;
+}
+
+.accordion-item {
+  width: 100%;
+  border-bottom: 1px solid #393953;
+}
+
+.accordion-header {
+  cursor: pointer;
+  padding: 15px;
+  font-weight: bold;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Circular", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: -0.014em;
+  text-align: left;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.accordion-header:hover {
+  background: #252534;
+}
+
+.accordion-content {
+  border-top: 1px solid #393953;
+  font-family: sans-serif;
+  color: #e6e4e4;
+  display: none;
+  padding: 15px;
+  background: transparent;
+  border-left: 4px solid #007bff;
+}
+
+.icon {
+  color: #007bff;
+  font-size: 24px;
+  transition: transform 0.2s ease;
+}
+
+.icon.open {
+  transform: rotate(90deg);
+}
+
+.section-2 {
+  margin-bottom: 150px;
+}
+
+.s2__content {
+  width: 100%;
+  padding: 40px 0px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(322deg, #6966ff 60%, rgba(105, 102, 255, 0.36) 100%);
+  border-radius: 20px;
+}
+.s2__content .primary_text {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-family: "Circular Std", sans-serif;
+  margin-bottom: 10px;
+}
+.s2__content h2 {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Circular Std", sans-serif;
+  margin-bottom: 40px;
+}
+.s2__content button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  color: #6966ff;
+  margin: 0 auto;
 }
 
 footer {
