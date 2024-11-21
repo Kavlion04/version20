@@ -1,0 +1,123 @@
+.container {
+
+    .container_title_text {
+
+        text-align: center;
+        color: white;
+
+        h1 {
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        p {
+            color: #C8C7D8;
+            font-size: 18px;
+            padding-top: 25px;
+        }
+    }
+
+
+    .Brand_assets_logo {
+        // width: 1400px;
+        height: 1480px;
+        // border: 4px solid yellow;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .logo_con_box {
+        width: 810px;
+        height: 1315px;
+        // border: 2px solid rgb(134, 134, 214);
+      
+        .logo_title-cards {
+            h1 {
+                text-align: center;
+                color: white;
+                font-size: 40px;
+                font-weight: 700;
+            }
+
+            .logo_cards {
+                width: 810px;
+                height: 710px;
+                // border: 2px double green;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                @media (max-width: 780px) {
+                    flex-direction: column;
+                    width: 50%;
+                    height: auto;
+                    margin: 0 auto;
+                }
+        
+            }
+        }
+
+        .avatar_box {
+            width: 810px;
+            height: 310px;
+            margin-top: 30px;
+
+            .avatar_card_images {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 22px;
+                @media (max-width: 700px) {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    flex-direction: column;
+                    
+                }
+            }
+        }
+
+        .avatar_title_text {
+            height: 50px;
+            margin-bottom: 40px;
+            text-align: center;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+
+
+        .Guidelines_box_text {
+            height: 140px;
+            margin-top: 75px;
+            color: white;
+
+            h1 {
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            p {
+                color: #C8C7D8;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+
+}
+.footer {
+   
+    position: relative;
+    bottom: -800px;
+    .footer-content {
+        display: none;
+    }
+}
